@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+  <h1>About Flask-Bookshop</h1>
+  <p>
+    Flask-Bookshop is a web application built with Flask that allows users to browse, add, edit, and delete books from a bookstore. It consumes a RESTful API for book data.
+  </p>
+  <h2>Setup Instructions</h2>
+  <ol>
+    <li>Clone the repository from GitHub.</li>
+    <li>Create a virtual environment and activate it.</li>
+    <li>Install the required dependencies using `pip install -r requirements.txt`.</li>
+    <li>Set the API_URL environment variable to the URL of your API.</li>
+    <li>Run the Flask app using `python app.py`.</li>
+  </ol>
+  <h2>Connecting to the API</h2>
+  <p>
+    To connect Flask-Bookshop to the API, set the API_URL environment variable to the URL of your API. For example:
+    <code>export BOOKSHOP_API_URL='http://your-api-url.com'</code>
+  </p>
+  <p>Copyright Liam Lim</p>
+{% endblock %}
